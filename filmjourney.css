@@ -1,13 +1,35 @@
-.donne{
-    width: 90%;
-    height: auto;
-    border: solid 3px rgb(126, 18, 145);
-    margin: 5%;
-    padding: 10px;
+form {
+    margin-top: 20px;
+    text-align: center;
 }
-.propr{
-    width: 90%;
-    height: auto;
-    background-color: rgb(247, 209, 246);
-    padding: 3px;
+
+/* Style pour l'étiquette */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style pour le champ de recherche */
+input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style pour le bouton de recherche */
+button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Changement de style au survol */
+button[type="submit"]:hover {
+    background-color: #0056b3;
 }
