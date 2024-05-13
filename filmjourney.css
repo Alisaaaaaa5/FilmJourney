@@ -1,0 +1,13 @@
+.donne{
+    width: 90%;
+    height: auto;
+    border: solid 3px rgb(126, 18, 145);
+    margin: 5%;
+    padding: 10px;
+}
+.propr{
+    width: 90%;
+    height: auto;
+    background-color: rgb(247, 209, 246);
+    padding: 3px;
+}
